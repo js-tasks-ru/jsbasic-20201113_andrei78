@@ -9,8 +9,6 @@ function initCarousel() {
 
   prev.style.display = 'none';
 
- 
-
   next.addEventListener('click', function() {
     position -= testContainder.offsetWidth;
     slideContainer.style.transform = `translateX(${position + 'px'} )`;
