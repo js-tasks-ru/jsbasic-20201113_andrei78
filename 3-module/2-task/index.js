@@ -9,5 +9,5 @@ function filterRange(arr, a, b) {
     if ( b < item < a) {
       return item;
     }
-  })
+  });
 }
