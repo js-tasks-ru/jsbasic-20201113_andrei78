@@ -8,7 +8,6 @@ export default class Carousel {
   }
   onClick = (event) => {
     if (event.target.closest('.carousel__button')) {
-      console.log('click')
       let ce = new CustomEvent('product-add', {
         detail: event.target.closest('.carousel__slide').dataset.id, 
         bubbles: true 
